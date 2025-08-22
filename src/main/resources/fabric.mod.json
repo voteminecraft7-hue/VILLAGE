@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "professional_village",
+  "version": "1.0.0",
+  "name": "Professional Village",
+  "description": "Upgrades Minecraft's normal villages to professional ones.",
+  "authors": ["voteminecraft7-hue"],
+  "contact": {
+    "sources": "https://github.com/voteminecraft7-hue/VILLAGE"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.voteminecraft7hue.village.ProfessionalVillageMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
