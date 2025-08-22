@@ -1,0 +1,22 @@
+// Build file for Professional Village mod
+plugins {
+    id 'fabric-loom'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Fabric API
+    modCompile "net.fabricmc:fabric-api:${project.fabric_version}"
+}
+
+minecraft {
+    version = project.minecraft_version
+    yarnMappings = project.yarn_mappings
+}
+
+loom {
+    accessWidener = project.access_widener
+}
